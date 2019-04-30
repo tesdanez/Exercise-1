@@ -1,0 +1,52 @@
+body {
+	font-size: 20px;
+	font-family: arial;	
+	right: 0px;
+	margin-top: 0px;
+}
+
+nav {
+	background-color: #AAA039;
+	color: white;
+}
+
+nav #nav-list {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li {
+	background color: yellow;
+	padding: 16px;
+	text-align: center;
+	transition: background-color 0.5s, padding 1s linear;	
+}
+
+/*Hover/ Mouse*/
+nav ul li:hover{
+	background-color: black;
+	border: 1px solid black;
+	transition: background-color 0.5s, padding 0.10s linear;
+}
+
+/*Change color Link Text*/
+a{
+	text text-decoration: none;
+	color: white;
+}
+
+/*Media query (balance image to other devices)*/
+@media screen and (min-width: 700px){
+	nav ul{
+		text-align: right;
+	}
+
+	nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		border-left: 1px 
+	}
+}
+
+
